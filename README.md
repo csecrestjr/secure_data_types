@@ -1,7 +1,7 @@
-Securetypes
+Secure Data Types
 ===========
 
-Securetypes' `securedict` is an implementation of `dict` that protects against
+Secure Data Types' `securedict` is an implementation of `dict` that protects against
 algorithmic complexity attacks.  With a normal `dict`, if an adversary can
 control the keys inserted into the `dict`, he can slow the program to a halt
 by picking keys with colliding `hash()`es.  Here are some sample colliding
